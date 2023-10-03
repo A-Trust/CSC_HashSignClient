@@ -17,8 +17,13 @@ namespace HashSignExampleClient
 {
     internal class GUIHashSigner
     {
-        // Paste your specific credentials here
-        // You can get your credentials by getting in contact with the A-Trust Sales team.
+        // Test-Credentials for Handy-Signature:
+        // Phone number: 1030121749133712
+        // Password: 123456789
+        // TAN: 123456
+
+        // Test-Credentials used for the CSC HashSigning Service
+        // If you have further questions, please contact the A-Trust Sales Team (sales@a-trust.at)
         #region Hash-Sign Options
         private string boxurl = @"https://testbox.a-trust.at/csc/v1/";
         private string redirect_url = "test1.a-trust.at";

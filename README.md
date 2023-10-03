@@ -17,6 +17,10 @@ Build and run via Visual Studio.
 
 Only the provided PDF can be signed because it has a prepared signature block. If you want to sign your own document it has to be prepared correctly.
 
-Please paste your csc hash signing credentials in the "Hash-Sign Options"-Regions of the GUIHashSigner.cs file.
+The following Test-Credentials (Handy-Signature) can be used for signing a document:
+- Phone number: 1030121749133712
+- Password: 123456789
+- TAN: 123456
 
-You can get your credentials by contacting the A-Trust sales team ([sales@a-trust.at](sales@a-trust.at)).
+
+If you have any further questions, please get in contact with our A-Trust sales team ([sales@a-trust.at](sales@a-trust.at)).
