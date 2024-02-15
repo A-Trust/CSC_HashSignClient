@@ -1,6 +1,7 @@
 # HashSignExampleClient
 
-A C# application demoing the use of HashSigning in a client application.
+This example in C# showcases how to implement the Cloud Signature Consortium API **1.4** with A-Trust Qualified Remote Signaure.
+[Download API Specifications](https://cloudsignatureconsortium.org/resources/download-api-specifications/)
 
 ## Running the HashSignExampleClient
 
@@ -15,7 +16,7 @@ Visual Studio
 
 Build and run via Visual Studio.
 
-Only the provided PDF can be signed because it has a prepared signature block. If you want to sign your own document it has to be prepared correctly.
+Only the provided PDF can be signed in this demo because it has a prepared signature block. If you want to sign your own document it has to be prepared correctly.
 
 The following Test-Credentials (Handy-Signature) can be used for signing a document:
 - Phone number: 1030121749133712
