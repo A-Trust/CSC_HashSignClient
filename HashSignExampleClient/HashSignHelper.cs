@@ -213,6 +213,7 @@ namespace ExampleClient
         {
             Dictionary<string, string> handySigParams = new Dictionary<string, string>();
             handySigParams.Add("response_type", "code");
+            handySigParams.Add("redirect_uri", redirectUri);
             handySigParams.Add("client_id", clientId);
             handySigParams.Add("scope", "credential");
             handySigParams.Add("state", "VXAgdG8gMjU1IGJ5dGVzIG9mIGFyYml0cmFyeSBkYXRhIGZyb20gdGhlIHNpZ25hdHVyZSBhcHBsaWNhdGlvbiB0aGF0IHdpbGwgYmUgcGFzc2VkIGJhY2sgdG8gdGhlIHJlZGlyZWN0IFVSSS4gVGhlIHVzZSBpcyBSRUNPTU1FTkRFRCBmb3IgcHJldmVudGluZyBjcm9zcy1zaXRlIHJlcXVlc3QgZm9yZ2VyeS4");
