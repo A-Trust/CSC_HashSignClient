@@ -25,7 +25,7 @@ namespace HashSignExampleClient
         // Test-Credentials used for the CSC HashSigning Service
         // If you have further questions, please contact the A-Trust Sales Team (sales@a-trust.at)
         #region Hash-Sign Options
-        private string boxurl = @"https://testbox.a-trust.at/csc/v1/";
+        private string boxurl = @"https://testbox.a-trust.at/hashsigning/2/csc/v1/";
         private string redirect_url = "https://www.a-trust.at";
         private string clientId = "github_client_id";
         private string clientSecret = "github_client_secret";
